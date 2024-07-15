@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Invalid_request_data</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Invalid request data</shortDescription>
+        <value>Invalid request data!</value>
+    </labels>
+    <labels>
+        <fullName>Sensor_data_processed_successfully</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sensor data processed successfully</shortDescription>
+        <value>Sensor data processed successfully!</value>
+    </labels>
+</CustomLabels>

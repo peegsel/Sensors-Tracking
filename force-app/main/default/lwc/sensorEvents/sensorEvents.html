@@ -1,0 +1,14 @@
+<template>
+  <lightning-card title="Sensor Events">
+    <template if:true={events}>
+      <lightning-datatable
+        data={events}
+        columns={columns}
+        key-field="Id"
+        hide-checkbox-column
+        onsave={handleSave}
+        draft-values={draftValues}
+      ></lightning-datatable>
+    </template>
+  </lightning-card>
+</template>
