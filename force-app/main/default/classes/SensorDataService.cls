@@ -36,12 +36,7 @@ global with sharing class SensorDataService {
           Sensor__c = sensor.Id,
           x__c = vector.x,
           y__c = vector.y,
-          z__c = vector.z,
-          Modules_Vector_Length__c = Math.sqrt(
-            Math.pow(Double.valueOf(vector.x), 2) +
-              Math.pow(Double.valueOf(vector.y), 2) +
-              Math.pow(Double.valueOf(vector.z), 2)
-          )
+          z__c = vector.z
         )
       );
     }

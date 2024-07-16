@@ -10,7 +10,10 @@
     ></lightning-combobox>
 
     <template if:true={selectedSensor}>
-      <c-sensor-events sensor-id={selectedSensor}></c-sensor-events>
+      <c-sensor-events
+        sensor-id={selectedSensor}
+        sensor-max-vector-length={selectedSensorMaxVectorLength}
+      ></c-sensor-events>
     </template>
   </lightning-card>
 </template>

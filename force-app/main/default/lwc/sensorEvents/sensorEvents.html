@@ -1,5 +1,8 @@
 <template>
   <lightning-card title="Sensor Events">
+    <template if:true={sensorMaxVectorLength}>
+      <p>Max Vectors Length: {sensorMaxVectorLength}</p>
+    </template>
     <template if:true={events}>
       <lightning-datatable
         data={events}

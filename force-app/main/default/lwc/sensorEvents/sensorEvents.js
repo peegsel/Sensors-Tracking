@@ -6,7 +6,7 @@ import { refreshApex } from "@salesforce/apex";
 
 const columns = [
   { label: "Event Name", fieldName: "Name" },
-  { label: "Modulus Vector Length", fieldName: "Modules_Vector_Length__c" },
+  { label: "Modulus Vector Length", fieldName: "Modulus_Vector_Length__c" },
   { label: "X", fieldName: "x__c", type: "number", editable: true },
   { label: "Y", fieldName: "y__c", type: "number", editable: true },
   { label: "Z", fieldName: "z__c", type: "number", editable: true }
@@ -14,6 +14,7 @@ const columns = [
 
 export default class SensorEvents extends LightningElement {
   @api sensorId;
+  @api sensorMaxVectorLength;
   @track events = [];
   columns = columns;
   draftValues = [];
