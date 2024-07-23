@@ -57,6 +57,6 @@ private class SensorDataServiceTest {
     String response = SensorDataService.doPost(request);
     Test.stopTest();
 
-    System.assertEquals(System.label.Invalid_request_data, response);
+    Assert.areEqual(System.label.Invalid_request_data, response);
   }
 }
