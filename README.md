@@ -25,3 +25,7 @@ The `sfdx-project.json` file contains useful configuration information for your 
 ## Overall Code Coverage
 ![image](https://github.com/user-attachments/assets/c95fb14f-df26-4328-95f8-d9bb09a9ff41)
 
+
+## Data model
+![image](https://github.com/user-attachments/assets/73f8de1f-9a8e-4eb1-96ca-7b77ed1f8ca8)
+
